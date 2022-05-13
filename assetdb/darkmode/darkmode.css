@@ -1,0 +1,79 @@
+body {
+    transition: 0.5s;
+}
+
+:root {
+    --background : black;
+    --foreground : #0F0F0F;
+    --black : black;
+    --grey : #1F1F1F;
+    --grey2 : #454545;
+    --grey3 : #999999;
+    --white : white;
+}
+
+/* Background/Foreground */
+.bg-dm {
+    background-color: var(--background);
+}
+
+.fg-dm {
+    background-color: var(--foreground);
+}
+
+/* Text */
+.txt-dm {
+    color: var(--white);
+}
+
+/* Border */
+.border-dm {
+    border : 1px solid var(--grey);
+}
+
+/* Button */
+.btn-dm {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.btn-dm:hover {
+    background-color: var(--grey);
+    color: var(--white);
+}
+
+.btn-dm-grey {
+    background-color: var(--grey2);
+    color: var(--white);
+    border: 1px solid var(--grey);
+}
+
+.btn-dm-grey:hover {
+    background-color: var(--grey3);
+    color: var(--black);
+    border: 1px solid var(--grey);
+}
+
+/* Link */
+.link-dm {
+    color: var(--grey3);
+}
+
+/* Input Form */
+.input-dm {
+    background-color: var(--black);
+    color: var(--white);
+    border: 1px solid var(--grey);
+}
+
+.input-dm:focus {
+    background-color: var(--grey);
+    color: var(--white);
+    border: 1px solid green;
+}
+
+/* Tabel */
+.table-dm {
+    border: 1px solid var(--grey);
+    color: var(--white);
+}
