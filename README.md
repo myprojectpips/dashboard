@@ -2,7 +2,9 @@
 <a href="https://github.com/myprojectpips/dashboardv0.2" target="_blank">Dashboard v0.2 - Laravel Mix</a>
 
 <hr>
-<p>
-    Laravel Version : 9 <br>
-    PHP Version : 8
-</p>
+
+<h3>Dashboard Feature</h3>
+<pre>
+    - Darkmode Theme
+    - Responsive Design
+</pre>
